@@ -9,8 +9,12 @@ function Home()
       <>
         <About />
         <Contact/>
-            <Projects />
-            <Footer/>
+        <Projects />
+        <Footer />
+        <div class="middle-contents">
+         <img src="/" alt="picture" />
+          
+        </div>
       </>
     );
 }
