@@ -1,12 +1,9 @@
-body{
-    background-color: rgb(13, 13, 41);
-    color: #fff;
-    justify-content: center;
+html {
+    scroll-behavior: smooth;
+
 }
 
-.footer-section {
-    background-color: rgb(97, 17, 17);
-    padding: 10px;
-    justify-self: baseline;
-    align-self: baseline;
+body {
+    background-color: rgb(228, 224, 238);
+    color: #0a0303;
 }

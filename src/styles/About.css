@@ -1,0 +1,106 @@
+.about-container {
+    background-color: rgb(182, 181, 196);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.profile p {
+    font-family: monospace;
+    font-size: 20ppx;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid darkblue;
+    width: 0;
+    animation:
+        typing 4s steps(24) infinite alternate,
+        blink 0.6s infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    60% {
+        width: 24ch;
+    }
+
+    80% {
+        width: 24ch;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+@keyframes blink {
+    0%, 50%{
+        border-color: #0070f3;
+    }
+    51%,100%{
+        border-color: transparent;
+    }
+    
+}
+
+.profile-pictures {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.profile-pictures img {
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+
+.about-description {
+flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.technologies{
+    background-color: #0070f3;
+    flex-wrap: wrap;
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px solid red;
+    justify-items: center;
+}
+
+.technologies li {
+    display: flex;
+    justify-content: center;
+}
+
+.technologies li ul {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.technologies li ul img {
+    width: 25px;
+}
+
+.technologies li ul p {
+    padding: 10px;
+    background-color: rgb(48, 48, 190);
+    border-radius: 15px;
+}

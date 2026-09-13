@@ -1,0 +1,17 @@
+
+
+.profile-images-container{
+    text-align: center;
+    display: flex;
+}
+
+.profile-images-container img{
+   
+     width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid green;
+    box-shadow: 0.4px 15px rgba(173, 85, 85, 0.2);
+    transition: 0.6 ease-in-out;
+}

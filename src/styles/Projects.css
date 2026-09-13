@@ -1,0 +1,28 @@
+.projects-card{
+    background-color: aliceblue;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 30px;
+
+}
+
+.projects-card p{
+    background-color: antiquewhite;
+    padding: 20px;
+
+}
+
+.projects-card li{
+    display: flex;
+    padding: 30px;
+    background-color:bisque;
+    border-radius: 5px;
+    border: 2px solid purple;
+}
+
+.projects-card li ul {
+    background-color: aliceblue;
+}
