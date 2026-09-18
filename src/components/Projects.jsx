@@ -7,18 +7,6 @@ const Projects = React.forwardRef((props, ref) => {
       <>
         <div className="projects-card" ref={ref}>
           <ProjectsList/>
-          <p>Projects</p>
-          <li>
-            <ul>
-              <a>Full stack portfolio website</a>
-            </ul>
-            <ul>
-              <a>Bookstore Website</a>
-            </ul>
-            <ul>
-              <a>Ecommerce Website</a>
-            </ul>
-          </li>
         </div>
       </>
     );

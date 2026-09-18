@@ -40,7 +40,7 @@ function ProjectsList() {
         <p>The following are projects from api</p>
         <ul>
           {projects.map((project) => {
-          <li key={project.id}>
+          return <li key={project.id}>
             <p>{project.name}</p>
             <p>{project.description}</p>
             </li>;

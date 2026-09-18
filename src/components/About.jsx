@@ -1,12 +1,12 @@
 import Slideshow from "./Slideshow.jsx";
 import '../styles/About.css';
-import { ContactForm } from "../api/SendEmail.jsx"; 
+//import { ContactForm } from "../api/SendEmail.jsx"; 
 
 function About() {
         return (
           <>
             <div className="about-container">
-              <ContactForm/>
+            
                   <div className="profile">
                 <Slideshow />
                 <p>Hi I'm Collins Kiprotich</p>

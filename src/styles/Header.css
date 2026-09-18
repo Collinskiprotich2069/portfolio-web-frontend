@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .header-container {
     background-color: rgb(10, 10, 71);
     padding: 20px;
@@ -26,22 +29,16 @@
     justify-content: center;
 }
 
-.header-elements-top {
-    top: 0;
-    bottom: auto;
-}
-
-.header-elements-bottom {
-    top: auto;
-    bottom: 0;
-    background: #111;
-}
-
 .header-elements ul a {
     color: #fff;
     text-decoration: none;
 }
 
+.header-elements ul a:hover{
+    color: #217594;
+    text-decoration: solid rgb(1, 92, 87) underline;
+    padding: 0.5em;
+}
 .about {
     padding-top: 70px;
     padding-bottom: 70px;
