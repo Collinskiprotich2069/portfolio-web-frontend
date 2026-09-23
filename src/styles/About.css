@@ -74,33 +74,3 @@ flex-wrap: wrap;
     border-radius: 20px;
 
 }
-
-.technologies{
-    background-color: #0070f3;
-    flex-wrap: wrap;
-    padding: 5px;
-    border-radius: 30px;
-    border: 1px solid red;
-    justify-items: center;
-}
-
-.technologies li {
-    display: flex;
-    justify-content: center;
-}
-
-.technologies li ul {
-    gap: 10px;
-    display: flex;
-    flex-direction: row;
-}
-
-.technologies li ul img {
-    width: 25px;
-}
-
-.technologies li ul p {
-    padding: 10px;
-    background-color: rgb(48, 48, 190);
-    border-radius: 15px;
-}

@@ -1,0 +1,38 @@
+.skills {
+    background-color: black;
+    padding: 10px;
+    color:aliceblue;
+}
+
+.skills p {
+    padding: 5px;
+    
+}
+
+.skills-container {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+}
+
+.skills-card {
+    background-color: aqua;
+
+}
+
+.skills-card li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+
+}
+
+.skills-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}

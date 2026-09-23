@@ -1,3 +1,29 @@
-.social-links-container{
-    
+.social-links-container {
+    background-color: rgb(89, 146, 196);
+width: 100%;
+
+
+}
+
+.social-links-container li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.social-links-container li ul {
+    background-color: aqua;
+
+}
+
+.social-links-container li ul a {
+    text-decoration: none;
+    font-size: medium;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: space-evenly;
 }
