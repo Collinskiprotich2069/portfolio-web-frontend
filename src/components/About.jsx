@@ -1,7 +1,7 @@
 import Slideshow from "./Slideshow.jsx";
 import "../styles/About.css";
 import React from "react";
-import ProfileImages from "../api/ProfileImagesApi.jsx";
+//import ProfileImages from "../api/ProfileImagesApi.jsx";
 //import { ContactForm } from "../api/SendEmail.jsx";
 
 const About = React.forwardRef((props, ref) => {
@@ -12,9 +12,6 @@ const About = React.forwardRef((props, ref) => {
           <Slideshow />
           <p>Hi I'm Collins Kiprotich</p>
         </div>
-        <div>
-          <ProfileImages/>
-</div>
         <div className="about-description">
           <p>
             I am an aspiring fullstack developer building scalable websites

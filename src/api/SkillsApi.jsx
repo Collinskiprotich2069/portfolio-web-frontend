@@ -22,7 +22,9 @@ function Skills() {
                 <img src={skill.image} />
               </ul>
 
-              <span>{skill.name}</span>
+              <ul>
+                <p>{skill.name}</p>
+              </ul>
             </li>
           </div>
         ))}

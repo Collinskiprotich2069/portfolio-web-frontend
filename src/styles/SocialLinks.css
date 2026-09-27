@@ -1,8 +1,5 @@
 .social-links-container {
-    background-color: rgb(89, 146, 196);
-width: 100%;
-
-
+    background-color: rgb(224, 232, 240);
 }
 
 .social-links-container li {
@@ -10,11 +7,6 @@ width: 100%;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
-}
-
-.social-links-container li ul {
-    background-color: aqua;
 
 }
 
@@ -26,4 +18,13 @@ width: 100%;
     padding: 10px;
     border-radius: 15px;
     justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.social-links-container li ul a:hover{
+    background-color: rgb(36, 5, 95);
+    padding: 15px;
+    color: rgb(109, 105, 105);
+    text-decoration:2px rgb(104, 28, 28) underline;
+  
 }

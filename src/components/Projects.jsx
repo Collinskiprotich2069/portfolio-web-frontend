@@ -1,12 +1,13 @@
 import React from 'react';
 import '../styles/Projects.css';
-import ProjectsList from '../api/ProjectsApi';
+//import ProjectsList from '../api/ProjectsApi';
 
 const Projects = React.forwardRef((props, ref) => {
     return (
       <>
         <div className="projects-card" ref={ref}>
-          <ProjectsList/>
+          <p>No Projects Available</p>
+        
         </div>
       </>
     );
