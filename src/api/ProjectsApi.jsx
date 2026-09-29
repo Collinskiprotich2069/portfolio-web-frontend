@@ -1,4 +1,4 @@
-import '../styles/Projects.css';
+import "../styles/Projects.css";
 import { useState, useEffect } from "react";
 
 function ProjectsList() {

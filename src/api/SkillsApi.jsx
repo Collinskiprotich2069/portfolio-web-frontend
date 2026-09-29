@@ -16,8 +16,8 @@ function Skills() {
       </p>
       <div className="skills-container">
         {skills.map((skill) => (
-          <div className="skills-card">
-            <li key={skill.id}>
+          <div key={skill.id}  className="skills-card">
+            <li>
               <ul>
                 <img src={skill.image} />
               </ul>
