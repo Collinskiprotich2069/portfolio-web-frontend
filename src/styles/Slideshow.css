@@ -1,13 +1,12 @@
-
-
-.profile-images-container{
+.profile-images-container {
     text-align: center;
     display: flex;
+    align-self: center;
+   
 }
 
-.profile-images-container img{
-   
-     width: 150px;
+.profile-images-container img {
+    width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;

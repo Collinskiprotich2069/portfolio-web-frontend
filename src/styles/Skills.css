@@ -1,21 +1,23 @@
 .skills {
-    background-color: rgb(180, 98, 98);
+    background-color: rgb(174, 155, 155);
     color: aliceblue;
     border-radius: 20px;
     flex-wrap: wrap;
     padding: 5px;
-    justify-content: center;
+  
+   
 }
 
 .skills-container {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     align-items: center;
+    
 }
 
 .skills-card {
     padding: 0;
-    background-color: rgba(112, 122, 122, 0.63);
+    background-color: rgba(124, 142, 142, 0.63);
     flex-wrap: wrap;
     padding: 10px;
 }

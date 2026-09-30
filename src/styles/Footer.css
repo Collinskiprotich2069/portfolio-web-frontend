@@ -1,9 +1,9 @@
 .footer-section {
-    background-color: rgb(4, 4, 46);
+    background-color: rgba(66, 66, 83, 0.7);
     padding: 20px;
     width: 100%;
     color: aliceblue;
     justify-items: center;
-    justify-self: center;
     bottom: 0;
+    max-width: 710px;
 }

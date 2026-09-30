@@ -3,18 +3,16 @@ import { useState, useEffect } from "react";
 
 function ProjectsList() {
   const [projects, setProjects] = useState([]);
+  const [error, setError] = useState("");
   useEffect(() => {
-    fetch("http://localhost:8000/api/projects")
+    fetch("http://localhost:8000/ap/projects")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
 
-  //if (loading) return <p>Loading ...</p>;
-
-  return (
-    <>
-      <div>
-        <p>The following are projects from api</p>
+  const proj = () => {
+    if (projects) {
+      return (
         <ul>
           {projects.map((project) => {
             return (
@@ -25,6 +23,17 @@ function ProjectsList() {
             );
           })}
         </ul>
+      );
+    } else if(projects.data === null){
+      return <p>No projects moemt available</p>;
+    }
+  };
+
+  return (
+    <>
+      <div>
+        <p>The following are projects from api</p>
+        {proj()}
         <p>the following are projects</p>
       </div>
     </>

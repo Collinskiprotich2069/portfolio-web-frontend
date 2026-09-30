@@ -3,7 +3,7 @@ import Projects from "../components/Projects";
 import "../App.css";
 import About from "../components/About";
 import "../styles/Header.css";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import SocialMediaLinks from "../components/SocialLinks";
 import { Skill } from "../components/skills";
 
@@ -50,9 +50,20 @@ function Main() {
       });
     }
   };
+
+  useEffect(() => {
+    const header = document.getElementById("header");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 5) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    })
+  });
   return (
     <>
-      <div className="header-container">
+      <div id="header" className="header-container">
         <li className="header-elements">
           <ul>
             <a onClick={scrollToAbout}>About</a>
@@ -68,20 +79,21 @@ function Main() {
           </ul>
         </li>
       </div>
-
-      <div className="about">
-        <About ref={aboutRef} />
+      <div className="web-elements">
+        <div className="about">
+          <About ref={aboutRef} />
+        </div>
+        <div className="skills">
+          <Skill ref={skillsRef} />
+        </div>
+        <div className="projects">
+          <Projects ref={projectsRef} />
+        </div>
+        <div className="social">
+          <SocialMediaLinks ref={contactRef} />
+        </div>
+        <Footer />
       </div>
-      <div className="skills">
-        <Skill ref={skillsRef} />
-      </div>
-      <div className="projects">
-        <Projects ref={projectsRef} />
-      </div>
-      <div className="social">
-        <SocialMediaLinks ref={contactRef} />
-      </div>
-      <Footer />
     </>
   );
 }

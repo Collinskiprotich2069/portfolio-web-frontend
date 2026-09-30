@@ -2,12 +2,13 @@ import Slideshow from "./Slideshow.jsx";
 import "../styles/About.css";
 import React from "react";
 //import ProfileImages from "../api/ProfileImagesApi.jsx";
-//import { ContactForm } from "../api/SendEmail.jsx";
+//import { ContactForm } from "../api/SendEmail.joccsx";
 
 const About = React.forwardRef((props, ref) => {
+
   return (
     <>
-      <div className="about-container" ref={ref}>
+      <div  className="about-container" ref={ref}>
         <div className="profile">
           <Slideshow />
 
