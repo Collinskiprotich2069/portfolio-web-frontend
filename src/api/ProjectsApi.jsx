@@ -32,9 +32,8 @@ function ProjectsList() {
   return (
     <>
       <div>
-        <p>The following are projects from api</p>
-        {proj()}
-        <p>the following are projects</p>
+        <p>No Projects Available at the moment</p>
+        <p>Projects in Progress</p>
       </div>
     </>
   );

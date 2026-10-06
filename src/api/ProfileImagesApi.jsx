@@ -22,3 +22,5 @@ function ProfileImages() {
     </>
   );
 }
+
+export default ProfileImages;

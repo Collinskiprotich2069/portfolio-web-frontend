@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "../styles/Slideshow.css";
+import ProfileImages from "../api/ProfileImagesApi";
 
 const images = [
   "src/assets/profilepic/prof1.jpg",
@@ -33,6 +34,7 @@ function Slideshow() {
       <div className="profile-images-container">
         <img src={images[current]} alt="profile" />
       </div>
+     
     </>
   );
 }
