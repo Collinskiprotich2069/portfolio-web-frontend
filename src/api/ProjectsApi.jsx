@@ -5,7 +5,7 @@ function ProjectsList() {
   const [projects, setProjects] = useState([]);
   const [error, setError] = useState("");
   useEffect(() => {
-    fetch("http://localhost:8000/ap/projects")
+    fetch("https://portfolio-web-backend-cl1f.onrender.com/api/projects/")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);

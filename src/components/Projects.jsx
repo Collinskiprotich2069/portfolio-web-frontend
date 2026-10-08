@@ -6,7 +6,6 @@ const Projects = React.forwardRef((props, ref) => {
     return (
       <>
         <div className="projects-card" ref={ref}>
-          <p>No Projects Available</p>
         <ProjectsList/>
         </div>
       </>
