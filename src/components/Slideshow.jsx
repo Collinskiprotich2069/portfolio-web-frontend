@@ -3,9 +3,9 @@ import "../styles/Slideshow.css";
 import ProfileImages from "../api/ProfileImagesApi";
 
 const images = [
-  "src/assets/profilepic/prof1.jpg",
-  "src/assets/profilepic/prof2.jpg",
-  "src/assets/profilepic/prof3.jpg",
+  "https://portfolio-web-backend-cl1f.onrender.com/media/profilepic/WIN_20260508_11_24_44_Pro_pxTn6ta.jpg",
+  "https://portfolio-web-backend-cl1f.onrender.com/media/profilepic/WIN_20260523_13_08_02_Pro.jpg",
+  "https://portfolio-web-backend-cl1f.onrender.com/media/profilepic/WIN_20260508_11_24_44_Pro_NStZiav.jpg",
 ];
 
 function Slideshow() {
