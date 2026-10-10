@@ -18,6 +18,7 @@ function ProjectsList() {
             return (
               <li key={project.id}>
                 <p>{project.name}</p>
+                <img src="" alt="project-image"/>
                 <p>{project.description}</p>
               </li>
             );
