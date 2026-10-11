@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "../styles/Slideshow.css";
-import ProfileImages from "../api/ProfileImagesApi";
 
 const images = [
   "https://res.cloudinary.com/tmb7aloa/image/upload/v1/media/profilepic/Screenshot_2026-10-09_125806_eqihf4",
