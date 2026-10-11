@@ -18,8 +18,9 @@ const About = React.forwardRef((props, ref) => {
         <div className="about-description">
           <p>I am an aspiring fullstack developer building scalable websites</p>
           <p>
-            Currently, I am pursuing Bachelor of Science in Applied Physics and
-            Computer Science at Multimedia University of Kenya.
+            I am a second year  student at Multimedia University of Kenya
+            pursuing Bachelor of Science in Applied Physics and
+            Computer Science.
           </p>
         </div>
       </div>

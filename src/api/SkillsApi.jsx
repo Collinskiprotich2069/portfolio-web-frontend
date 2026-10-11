@@ -11,8 +11,7 @@ function Skills() {
   return (
     <div className="skills">
       <p>
-        The following are the programming languages and framework that i use in
-        web development
+        My Tech stack is made up of the following
       </p>
       <div className="skills-container">
         {skills.map((skill) => (

@@ -1,11 +1,12 @@
 .about-container {
-    background-color: rgb(182, 181, 196);
+    background-color: rgb(115, 111, 157);
     padding: 20px;
     display: flex;
     flex-direction: column;
     border-radius: 30px;
    max-width: max-content;
    justify-self: center;
+   border: 1px solid red;
     
     
 }
