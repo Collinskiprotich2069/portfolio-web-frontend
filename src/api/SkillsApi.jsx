@@ -10,12 +10,14 @@ function Skills() {
   }, []);
   return (
     <div className="skills">
+      <p>My Tech stack is made up of the following</p>
       <p>
-        My Tech stack is made up of the following
+        Basic computer skills in Word Processing,
+        Ms-Excel and MS-access
       </p>
       <div className="skills-container">
         {skills.map((skill) => (
-          <div key={skill.id}  className="skills-card">
+          <div key={skill.id} className="skills-card">
             <li>
               <ul>
                 <img src={skill.image} />

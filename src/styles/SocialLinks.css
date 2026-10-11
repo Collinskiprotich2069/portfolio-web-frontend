@@ -1,5 +1,9 @@
 .social-links-container {
-    background-color: rgb(224, 232, 240);
+    backdrop-filter:blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background-color: rgba(120, 149, 179, 0.3);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .social-links-container li {

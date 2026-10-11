@@ -4,11 +4,12 @@
     display: flex;
     flex-direction: column;
     border-radius: 30px;
-   max-width: max-content;
-   justify-self: center;
-   border: 1px solid red;
-    
-    
+    max-width: max-content;
+    justify-self: center;
+    border: 1px solid red;
+    gap: 20px;
+
+
 }
 
 .profile {
@@ -17,11 +18,12 @@
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
+    color: #fff;
 }
 
 .profile p {
     font-family: monospace;
-    font-size: 20ppx;
+    font-size: 20px;
     white-space: nowrap;
     overflow: hidden;
     border-right: 4px solid darkblue;
@@ -48,14 +50,19 @@
         width: 0;
     }
 }
+
 @keyframes blink {
-    0%, 50%{
-        border-color: #0070f3;
+
+    0%,
+    50% {
+        border-color: #841b45;
     }
-    51%,100%{
+
+    51%,
+    100% {
         border-color: transparent;
     }
-    
+
 }
 
 .profile-pictures {
@@ -73,8 +80,12 @@
 
 
 .about-description {
-flex-wrap: wrap;
+    flex-wrap: wrap;
     padding: 20px;
     border-radius: 20px;
-
+    color: #fff;
+    backdrop-filter: 5px;
+    -webkit-backdrop-filter: blur(3px);
+    background-color: rgba(194, 127, 154, 0.2);
+    border: 0.5px solid #841b45;
 }
