@@ -19,6 +19,7 @@ html {
     transition: all 0.7s ease;
     position: fixed;
     justify-self: center;
+    flex-wrap: wrap;
 
 
 }
@@ -39,7 +40,7 @@ html {
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
-    position: fixed;
+   position: fixed;
     justify-self: center;
     max-width: max-content;
 }

@@ -1,11 +1,10 @@
 import React from 'react';
-import '../styles/Projects.css';
 import ProjectsList from '../api/ProjectsApi';
 
 const Projects = React.forwardRef((props, ref) => {
     return (
       <>
-        <div className="projects-card" ref={ref}>
+        <div ref={ref}>
         <ProjectsList/>
         </div>
       </>

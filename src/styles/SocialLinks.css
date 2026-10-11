@@ -4,6 +4,7 @@
     background-color: rgba(120, 149, 179, 0.3);
     padding: 10px;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 
 .social-links-container li {

@@ -1,11 +1,12 @@
 .skills {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    background-color: rgba(45, 24, 118,0.2);
+    background-color: rgba(42, 45, 99, 0.3);
     color: aliceblue;
     border-radius: 20px;
     flex-wrap: wrap;
     padding: 5px;
+    flex-wrap: wrap;
 
 
 }
@@ -14,6 +15,7 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     background-color: rgba(91, 71, 71,0.3);
+   
     padding: 10px;
     justify-self: center;
     border-radius: 10px;
@@ -31,11 +33,6 @@
 }
 
 .skills-card {
-    padding: 0;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    background-color: rgba(0, 21, 21, );
-
     flex-wrap: wrap;
     padding: 10px;
 }
@@ -46,9 +43,9 @@
     align-items: center;
     gap: 10px;
     border: 1px solid #5b4747;
-    backdrop-filter: blur(10px);
+    backdrop-filter: 10px;
     -webkit-backdrop-filter: blur(5px);
-    background-color: rgba(0, 21, 21, 0.2);
+    background-color: rgba(0, 21, 21, 0.4);
     border-radius: 10px;
     flex-wrap: wrap;
     min-height: max-content;

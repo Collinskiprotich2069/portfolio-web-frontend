@@ -10,31 +10,43 @@ function ProjectsList() {
       .then((data) => setProjects(data));
   }, []);
 
-  const proj = () => {
-    if (projects) {
-      return (
-        <ul>
-          {projects.map((project) => {
-            return (
-              <li key={project.id}>
-                <p>{project.name}</p>
-                <img src="" alt="project-image"/>
-                <p>{project.description}</p>
-              </li>
-            );
-          })}
-        </ul>
-      );
-    } else if(projects.data === null){
-      return <p>No projects moemt available</p>;
-    }
-  };
-
   return (
     <>
       <div>
-        <p>No Projects Available at the moment</p>
-        <p>Projects in Progress</p>
+        {projects.map((project) => {
+          return (
+            <div className="projects-card">
+              <p>
+                <li key={project.id}>
+                  <div className="projects-name-description">
+                    <ul>
+                      <p>
+                        <a
+                          href="https://collins-kiprotich.vercel.app/"
+                          target="no_blank"
+                        >
+                          {project.name}
+                        </a>
+                      </p>
+                    </ul>
+                    <ul>
+                      <p>{project.description}</p>
+                    </ul>
+                  </div>
+                  <ul>
+                    <a
+                      href="https://collins-kiprotich.vercel.app/"
+                      target="no_blank"
+                    >
+                      <img src={project.image} alt="project-image" />
+                    </a>
+                  </ul>
+                </li>
+              </p>
+              <p>Other Projects in Progress</p>
+            </div>
+          );
+        })}
       </div>
     </>
   );

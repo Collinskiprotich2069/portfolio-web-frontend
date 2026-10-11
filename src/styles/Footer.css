@@ -6,4 +6,5 @@
     justify-items: center;
     bottom: 0;
     max-width: 710px;
+    flex-wrap: wrap;
 }
