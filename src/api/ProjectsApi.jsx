@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 
 function ProjectsList() {
   const [projects, setProjects] = useState([]);
-  const [error, setError] = useState("");
   useEffect(() => {
     fetch("https://portfolio-web-backend-cl1f.onrender.com/api/projects/")
       .then((res) => res.json())
@@ -16,33 +15,32 @@ function ProjectsList() {
         {projects.map((project) => {
           return (
             <div className="projects-card">
-              <p>
-                <li key={project.id}>
-                  <div className="projects-name-description">
-                    <ul>
-                      <p>
-                        <a
-                          href="https://collins-kiprotich.vercel.app/"
-                          target="no_blank"
-                        >
-                          {project.name}
-                        </a>
-                      </p>
-                    </ul>
-                    <ul>
-                      <p>{project.description}</p>
-                    </ul>
-                  </div>
+              <li key={project.id}>
+                <div className="projects-name-description">
                   <ul>
-                    <a
-                      href="https://collins-kiprotich.vercel.app/"
-                      target="no_blank"
-                    >
-                      <img src={project.image} alt="project-image" />
-                    </a>
+                    <p>
+                      <a
+                        href="https://collins-kiprotich.vercel.app/"
+                        target="no_blank"
+                      >
+                        {project.name}
+                      </a>
+                    </p>
                   </ul>
-                </li>
-              </p>
+                  <ul>
+                    <p>{project.description}</p>
+                  </ul>
+                </div>
+                <ul>
+                  <a
+                    href="https://collins-kiprotich.vercel.app/"
+                    target="no_blank"
+                  >
+                    <img src={project.image} alt="project-image" />
+                  </a>
+                </ul>
+              </li>
+
               <p>Other Projects in Progress</p>
             </div>
           );

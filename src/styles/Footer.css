@@ -1,10 +1,15 @@
 .footer-section {
-    background-color: rgb(13, 13, 100);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(124, 124, 146, 0.1);
     padding: 20px;
     width: 100%;
     color: aliceblue;
     justify-items: center;
     bottom: 0;
-    max-width: 710px;
-    flex-wrap: wrap;
+    max-width: fit-content;
+    justify-self: center;
+    border-radius: 10px;
+    border: none;
+
 }
