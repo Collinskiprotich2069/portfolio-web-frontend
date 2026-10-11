@@ -3,9 +3,9 @@ import "../styles/Slideshow.css";
 import ProfileImages from "../api/ProfileImagesApi";
 
 const images = [
-  "https://res.cloudinary.com/tmb7aloa/image/upload/v1/media/profilepic/WIN_20260523_13_08_02_Pro.jpg",
-  "https://res.cloudinary.com/tmb7aloa/image/upload/v1/media/profilepic/WIN_20260508_11_24_44_Pro_xC32eYO.jpg",
-  "https://res.cloudinary.com/tmb7aloa/image/upload/v1/media/profilepic/Screenshot_2026-10-09_125806.png",
+  "https://res.cloudinary.com/tmb7aloa/image/upload/v1/media/profilepic/Screenshot_2026-10-09_125806_eqihf4",
+  "https://res.cloudinary.com/tmb7aloa/image/upload/v1/media/profilepic/WIN_20260508_11_24_44_Pro_hfq4d4",
+  "https://res.cloudinary.com/tmb7aloa/image/upload/v1/media/profilepic/WIN_20260523_13_08_02_Pro_yuuair",
 ];
 
 function Slideshow() {
