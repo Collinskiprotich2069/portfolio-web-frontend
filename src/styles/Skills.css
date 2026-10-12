@@ -1,8 +1,8 @@
 .skills {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    background-color: rgba(42, 45, 99, 0.3);
-    color: aliceblue;
+    background-color: rgba(90, 91, 107, 0.1);
+    color: #fff;
     border-radius: 20px;
     flex-wrap: wrap;
     padding: 5px;
@@ -14,9 +14,10 @@
 .skills p{
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    background-color: rgba(91, 71, 71,0.3);
-   
+    background-color: rgba(39, 32, 32, 0.1);
+    font-size: 20px;
     padding: 10px;
+    color: white;
     justify-self: center;
     border-radius: 10px;
     border: 1px solid rgb(113, 47, 47);
