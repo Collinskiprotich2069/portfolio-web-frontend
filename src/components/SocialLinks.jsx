@@ -1,9 +1,13 @@
 import React from "react";
 import "../styles/SocialLinks.css";
+import ContactForm from "./ContactForm";
 
-const SocialMediaLinks =  React.forwardRef((props, ref) => {
+const SocialMediaLinks = React.forwardRef((props, ref) => {
   return (
     <>
+      <div>
+        <ContactForm />
+      </div>
       <div className="social-links-container" ref={ref}>
         <li>
           <ul>

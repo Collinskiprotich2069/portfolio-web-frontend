@@ -8,12 +8,12 @@ import SocialMediaLinks from "../components/SocialLinks";
 import { Skill } from "../components/skills";
 
 function Main() {
-  //function to enable the scroll behaviour when a header element is clicke
+  //function to enable the scroll behaviour when a header element is clicked
   const projectsRef = useRef(null);
   const aboutRef = useRef(null);
   const skillsRef = useRef(null);
   const contactRef = useRef(null);
-
+//These are functions that define how the each scroll click on headers bescroll to
   const scrollToProjects = () => {
     if (projectsRef.current) {
       projectsRef.current?.scrollIntoView({
