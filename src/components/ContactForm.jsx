@@ -20,7 +20,7 @@ export default function ContactForm() {
 
     try {
       const response = await fetch(
-        "https://collins-kiprotich-portfolio-api.onrender.com/api/message/",
+        "https://portfolio-web-backend-cl1f.onrender.com/api/message/",
         {
           method: "POST",
           headers: {
