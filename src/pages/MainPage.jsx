@@ -72,7 +72,9 @@ function Main() {
         />
         <meta
           name="description"
-          content="Aspiring full stack developer Looking for work/ internship . Python, Django, Django rest API, Javascript, React "
+          content="Portfolio of Collins Kiprotich, an Aspiring full stack developer   Looking for work/ internship .  
+          Specializing in Python Django, Django Rest Framework, Javascript React. And also moden Web  Applications.
+          "
         />
         <link rel="canonical" href="https://collins-kiprotich.vercel.app" />
       </Helmet>
