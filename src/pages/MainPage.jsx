@@ -66,8 +66,15 @@ function Main() {
     <>
       <Helmet>
         <title>Web Developer in Nairobi, Rongai, Looking for internchip</title>
-        <meta name="description" content="Aspiring full stack developer Looking for work/ internship . Python, Django, Django rest API, Javascript, React " />
-        <link rel="canonical" href="https://collins-kiprotich.vercel.app"/>
+        <meta
+          name="google-site-verification"
+          content="yiOm3jJx1YK3D_wDZQ8qYiJp3cJUsSrvqsS_OsCMi1M"
+        />
+        <meta
+          name="description"
+          content="Aspiring full stack developer Looking for work/ internship . Python, Django, Django rest API, Javascript, React "
+        />
+        <link rel="canonical" href="https://collins-kiprotich.vercel.app" />
       </Helmet>
       <div id="header" className="header-container">
         <li className="header-elements">
