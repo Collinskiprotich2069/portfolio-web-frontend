@@ -7,13 +7,14 @@ import { useEffect, useRef, useState } from "react";
 import SocialMediaLinks from "../components/SocialLinks";
 import { Skill } from "../components/skills";
 
+import { Helmet } from "react-helmet-async";
 function Main() {
   //function to enable the scroll behaviour when a header element is clicked
   const projectsRef = useRef(null);
   const aboutRef = useRef(null);
   const skillsRef = useRef(null);
   const contactRef = useRef(null);
-//These are functions that define how the each scroll click on headers bescroll to
+  //These are functions that define how the each scroll click on headers bescroll to
   const scrollToProjects = () => {
     if (projectsRef.current) {
       projectsRef.current?.scrollIntoView({
@@ -59,10 +60,15 @@ function Main() {
       } else {
         header.classList.remove("scrolled");
       }
-    })
+    });
   });
   return (
     <>
+      <Helmet>
+        <title>Web Developer in Nairobi, Rongai, Looking for internchip</title>
+        <meta name="description" content="Aspiring full stack developer Looking for work/ internship . Python, Django, Django rest API, Javascript, React " />
+        <link rel="canonical" href="https://collins-kiprotich.vercel.app"/>
+      </Helmet>
       <div id="header" className="header-container">
         <li className="header-elements">
           <ul>
