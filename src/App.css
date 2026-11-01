@@ -2,7 +2,6 @@
 .web-elements{
     background-color: rgb(37, 72, 97);
     gap: 20px;
-    max-width: 750px;
     justify-self: center;
     transition: 0.3 all ease;
     padding: 2px;
