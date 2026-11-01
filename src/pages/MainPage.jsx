@@ -65,6 +65,7 @@ function Main() {
   return (
     <>
       <Helmet>
+        <title>Collins Kiprotich Full Stack Developer</title>
         <title>Web Developer in Nairobi, Rongai, Looking for internchip</title>
         <meta
           name="google-site-verification"
