@@ -76,6 +76,32 @@ function Main() {
           Specializing in Python Django, Django Rest Framework, Javascript React. And also moden Web  Applications.
           "
         />
+        <title>
+          Collins Kiprotich | Portfolio | Full Stack Python & React Developer
+        </title>
+
+        <meta
+          name="description"
+          content="Portfolio of Collins Kiprotich, a professional Full Stack Developer specializing in Python, Django, React, and building scalable web applications."
+        />
+
+    
+        <meta
+          name="keywords"
+          content="Collins, Kiprotich, Python Developer, React Developer, Full Stack Developer, Django, Vercel, Render, Portfolio"
+        />
+
+
+        <meta
+          property="og:title"
+          content="Collins Kiprotich | Full Stack Developer Portfolio"
+        />
+        <meta
+          property="og:description"
+          content="Explore web applications built with Python, Django, and React by Collins Kiprotich."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://vercel.app" />
         <link rel="canonical" href="https://collins-kiprotich.vercel.app" />
       </Helmet>
       <div id="header" className="header-container">
