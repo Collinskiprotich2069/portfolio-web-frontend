@@ -46,7 +46,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div style={{margin: "auto", padding: "20px" }}>
+    <div className="contact" style={{margin: "auto", padding: "20px" }}>
       <h2>Contact Me</h2>
       <form
         onSubmit={handleSubmit}

@@ -16,7 +16,7 @@ const About = React.forwardRef((props, ref) => {
             scalable web applications
           </p>
           <p>
-            Currently, I am a second year student at
+            Currently, I am a second year student at 
             <a href="https://www.mmu.ac.ke/" target="noblank">
               Multimedia University of Kenya
             </a>
