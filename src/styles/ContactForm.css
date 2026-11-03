@@ -1,0 +1,41 @@
+div{
+    max-width: fit-content;
+    justify-self: center;
+}
+
+h2 {
+    color: #fff;
+}
+
+form {
+    backdrop-filter: blur(10px);
+    background-color: rgba(78, 78, 202, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+label {
+    color: #fff;
+
+}
+
+input {
+    border-radius: 5px;
+}
+
+textarea {
+    background-color: white;
+    border-radius: 10px;
+}
+
+button {
+    padding: 20px;
+    background: #0f0b1f;
+    font-size: large;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    max-width: fit-content;
+}

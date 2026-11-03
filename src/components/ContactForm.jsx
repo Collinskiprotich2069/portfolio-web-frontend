@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import "../styles/ContactForm.css";
 export default function ContactForm() {
   const [formData, setFormData] = useState({
     first_name: "",
@@ -46,7 +46,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div style={{ maxWidth: "400px", margin: "auto", padding: "20px" }}>
+    <div style={{margin: "auto", padding: "20px" }}>
       <h2>Contact Me</h2>
       <form
         onSubmit={handleSubmit}
@@ -91,17 +91,7 @@ export default function ContactForm() {
             style={{ width: "100%", padding: "8px" }}
           />
         </div>
-        <button
-          type="submit"
-          disabled={loading}
-          style={{
-            padding: "10px",
-            background: "#3c2d80",
-            color: "#fff",
-            border: "none",
-            cursor: "pointer",
-          }}
-        >
+        <button type="submit" disabled={loading}>
           {loading ? "Sending..." : "Send"}
         </button>
       </form>
