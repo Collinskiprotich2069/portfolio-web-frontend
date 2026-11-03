@@ -3,7 +3,6 @@ import "../styles/About.css";
 import React from "react";
 
 const About = React.forwardRef((props, ref) => {
-
   return (
     <>
       <div className="about-container" ref={ref}>
@@ -12,7 +11,10 @@ const About = React.forwardRef((props, ref) => {
           <p>Hi I'm Collins Kiprotich</p>
         </div>
         <div className="about-description">
-          <p>I am an aspiring fullstack developer building scalable websites</p>
+          <p>
+            I am an aspiring fullstack developer specializing in building
+            scalable web applications
+          </p>
           <p>
             Currently, I am a second year student at
             <a href="https://www.mmu.ac.ke/" target="noblank">
