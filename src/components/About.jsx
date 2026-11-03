@@ -14,14 +14,17 @@ const About = React.forwardRef((props, ref) => {
         <div className="about-description">
           <p>I am an aspiring fullstack developer building scalable websites</p>
           <p>
-            A second year student at{" "}
-            <a href="https://www.mmu.ac.ke/" target="noblank">Multimedia University</a> of Kenya
+            Currently, I am a second year student at
+            <a href="https://www.mmu.ac.ke/" target="noblank">
+              Multimedia University of Kenya
+            </a>
             pursuing Bachelor of Science in Applied Physics and Computer
             Science.
           </p>
           <p>
-            Hardworking, fast learner, ready and eager to learn more especially
-            when it comes to matters dealing with Iinformation Technology.
+            I am highly motivated, a fast learner, and passionate about
+            exploring new technologies and solving complex software engineering
+            challenges.
           </p>
         </div>
       </div>
