@@ -19,6 +19,8 @@ html {
     transition: all 0.7s ease;
     position: fixed;
     justify-self: center;
+    height: 40px;
+    align-items: center;
     
 
 
