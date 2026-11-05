@@ -5,7 +5,14 @@
     color: #fff;
     border-radius: 20px;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 15px;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+gap: 20px;
+    justify-self: center;
+flex-wrap: wrap;
+justify-self: center;
     
 
 
