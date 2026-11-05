@@ -20,7 +20,7 @@ function ProjectsList() {
                   <ul>
                     <p>
                       <a
-                        href="https://collins-kiprotich.vercel.app/"
+                        href={project.link}
                         target="no_blank"
                       >
                         {project.name}
@@ -33,7 +33,7 @@ function ProjectsList() {
                 </div>
                 <ul>
                   <a
-                    href="https://collins-kiprotich.vercel.app/"
+                    href={project.link}
                     target="no_blank"
                   >
                     <img src={project.image} alt="project-image" />
