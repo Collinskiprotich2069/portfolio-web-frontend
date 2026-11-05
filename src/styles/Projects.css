@@ -2,7 +2,6 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     background-color: rgba(66, 79, 88, 0.2);
-    color: black;
     padding: 20px;
     border: 2px solid rgb(228, 220, 220);
     border-radius: 10px;
