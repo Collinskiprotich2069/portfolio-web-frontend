@@ -1,6 +1,9 @@
-
+*{
+    margin: 0;
+  
+}
 .web-elements{
-    background-color: rgb(37, 72, 97);
+    background-color: rgb(21, 22, 77);
     gap: 20px;
     justify-self: center;
     transition: 0.3 all ease;
