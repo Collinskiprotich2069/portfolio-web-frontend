@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0;  
   
 }
 .web-elements{
@@ -9,5 +9,8 @@
     transition: 0.3 all ease;
     padding: 2px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
 }
