@@ -14,7 +14,7 @@ form {
     padding: 30px;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-
+justify-self: center;
 }
 
 .form-details {
