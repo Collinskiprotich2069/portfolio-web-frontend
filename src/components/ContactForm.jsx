@@ -35,7 +35,7 @@ export default function ContactForm() {
 
       if (response.ok) {
         setStatus("Message sent successfully!");
-        setFormData({ first_name: "", last_name: "", message: "" });
+        setFormData({ first_name: "", last_name: "",email:"", message: "" });
       } else {
         setStatus(data.error || "Failed to send message.");
       }
