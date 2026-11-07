@@ -1,4 +1,5 @@
 import Slideshow from "./Slideshow.jsx";
+
 import "../styles/About.css";
 import React from "react";
 
