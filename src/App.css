@@ -6,8 +6,6 @@
     transition: 0.3 all ease;
     padding: 2px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    min-width: fit-content;
 
 }
