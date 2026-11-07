@@ -54,9 +54,6 @@ export default function ContactForm() {
         style={{ display: "flex", flexDirection: "column", gap: "15px" }}
       >
         <div className="form-details">
-          <label style={{ display: "block", marginBottom: "5px" }}>
-            First Name
-          </label>
           <input
             type="text"
             name="first_name"
@@ -65,11 +62,11 @@ export default function ContactForm() {
             required
             style={{ width: "100%", padding: "8px" }}
           />
+          <label style={{ display: "block", marginBottom: "5px" }}>
+            First Name
+          </label>
         </div>
         <div className="form-details">
-          <label style={{ display: "block", marginBottom: "5px" }}>
-            Last Name
-          </label>
           <input
             type="text"
             name="last_name"
@@ -78,9 +75,11 @@ export default function ContactForm() {
             required
             style={{ width: "100%", padding: "8px" }}
           />
+          <label style={{ display: "block", marginBottom: "5px" }}>
+            Last Name
+          </label>
         </div>
         <div className="form-details">
-          <label style={{ display: "block", marginBottom: "5px" }}>Email</label>
           <input
             type="email"
             name="email"
@@ -89,12 +88,11 @@ export default function ContactForm() {
             required
             style={{ width: "100%", padding: "8px" }}
           />
+          <label style={{ display: "block", marginBottom: "5px" }}>Email</label>
         </div>
         <div className="form-details">
-          <label style={{ display: "block", marginBottom: "5px" }}>
-            Message
-          </label>
           <textarea
+        
             name="message"
             value={formData.message}
             onChange={handleChange}
@@ -102,13 +100,16 @@ export default function ContactForm() {
             rows="4"
             style={{ width: "100%", padding: "8px" }}
           />
+          <label style={{ display: "block", marginBottom: "5px" }}>
+            Message
+          </label>
         </div>
         <button type="submit" disabled={loading}>
           {loading ? "Sending..." : "Send"}
         </button>
       </form>
       {status && (
-        <p style={{ marginTop: "15px", textAlign: "center" }}>{status}</p>
+        <p style={{ marginTop: "15px", textAlign: "center" , color: "#fff"}}>{status}</p>
       )}
     </div>
   );
