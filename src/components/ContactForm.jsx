@@ -4,6 +4,7 @@ export default function ContactForm() {
   const [formData, setFormData] = useState({
     first_name: "",
     last_name: "",
+    email: "",
     message: "",
   });
 
@@ -46,13 +47,13 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="contact" style={{margin: "auto", padding: "20px" }}>
+    <div className="contact-form" style={{ margin: "auto", padding: "20px" }}>
       <h2>Contact Me</h2>
       <form
         onSubmit={handleSubmit}
         style={{ display: "flex", flexDirection: "column", gap: "15px" }}
       >
-        <div>
+        <div className="form-details">
           <label style={{ display: "block", marginBottom: "5px" }}>
             First Name
           </label>
@@ -65,7 +66,7 @@ export default function ContactForm() {
             style={{ width: "100%", padding: "8px" }}
           />
         </div>
-        <div>
+        <div className="form-details">
           <label style={{ display: "block", marginBottom: "5px" }}>
             Last Name
           </label>
@@ -78,7 +79,18 @@ export default function ContactForm() {
             style={{ width: "100%", padding: "8px" }}
           />
         </div>
-        <div>
+        <div className="form-details">
+          <label style={{ display: "block", marginBottom: "5px" }}>Email</label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+            style={{ width: "100%", padding: "8px" }}
+          />
+        </div>
+        <div className="form-details">
           <label style={{ display: "block", marginBottom: "5px" }}>
             Message
           </label>
