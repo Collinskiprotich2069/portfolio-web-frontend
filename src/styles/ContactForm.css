@@ -1,6 +1,7 @@
-.contact{
-    max-width: fit-content;
+.contact-form{
+    width: 850px;
     justify-self: center;
+
 }
 
 h2 {
@@ -15,14 +16,24 @@ form {
     border: 1px solid rgba(255, 255, 255, 0.3);
 
 }
+.form-details {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap:10px;
+    border: 1px solid rgb(214, 201, 201);
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
 
 label {
     color: #fff;
+    
 
 }
 
 input {
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 textarea {

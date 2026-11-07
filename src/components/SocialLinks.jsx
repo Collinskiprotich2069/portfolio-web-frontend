@@ -27,7 +27,9 @@ const SocialMediaLinks = React.forwardRef((props, ref) => {
             </a>
           </ul>
           <ul>
-            <a href="https://github.com/Collinskiprotich2069" target="no_blank">
+            <a href="https://github.com/Collinskiprotich2069"
+              target="no_blank"
+            >
               Github
             </a>
           </ul>
@@ -43,7 +45,7 @@ const SocialMediaLinks = React.forwardRef((props, ref) => {
       </div>
     </>
   );
-  SocialMediaLinks.displayName = "SocialMediaLinks";
 });
+SocialMediaLinks.displayName = "SocialMediaLinks";
 
 export default SocialMediaLinks;

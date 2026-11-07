@@ -28,6 +28,7 @@ function Slideshow() {
       <img src={image.first}/>
     })
   ]*/
+
   return (
     <>
       <div className="profile-images-container">
@@ -37,5 +38,6 @@ function Slideshow() {
     </>
   );
 }
+
 
 export default Slideshow;
