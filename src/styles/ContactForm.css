@@ -30,7 +30,7 @@ justify-self: center;
 
 label {
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
     top: 50%;
     left: 10px;
@@ -47,7 +47,7 @@ input {
     border-radius: 8px;
     width: 100%;
     padding: 14px 10px;
-    font-size: 16px;
+    font-size: 35px;
     border: 1px solid rgb(212, 219, 219);
     outline: none;
     height: 30px;
@@ -56,7 +56,7 @@ input {
 input:focus+label,
 input:valid+label {
     top: -1px;
-    font-size: 14px;
+    font-size: 20px;
     color: rgb(21, 21, 34);
     font-family: sans-serif;
 }
@@ -64,13 +64,13 @@ input:valid+label {
 textarea {
     background-color: white;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 30px;
 }
 
 textarea:focus+label,
 textarea:valid+label {
     top: -1px;
-    font-size: 14px;
+    font-size: 20px;
     color: rgb(21, 21, 34);
     font-family: sans-serif;
 
